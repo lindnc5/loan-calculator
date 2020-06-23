@@ -12,7 +12,7 @@
   },
    "type": "module",
   "scripts": {
-    "start": "serve -s build",
+    "start": "node --experimental-modules src/index.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

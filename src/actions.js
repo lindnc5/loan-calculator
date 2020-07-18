@@ -11,3 +11,9 @@ export const updateInitialAmount = content => ({
     payload: { 
         interestRate: content }
   });
+
+  export const updatePaymentAmount = content => ({
+    type: 'UPDATE_PAYMENT_AMOUNT',
+    payload: { 
+        paymentAmount: content }
+  });
